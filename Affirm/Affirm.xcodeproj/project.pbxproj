@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16BB4CC525CFE3D8001AFA5C /* AffirmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB4CC425CFE3D8001AFA5C /* AffirmApp.swift */; };
+		16BB4CC725CFE3D8001AFA5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB4CC625CFE3D8001AFA5C /* ContentView.swift */; };
+		16BB4CC925CFE3D9001AFA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BB4CC825CFE3D9001AFA5C /* Assets.xcassets */; };
+		16BB4CCC25CFE3D9001AFA5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BB4CCB25CFE3D9001AFA5C /* Preview Assets.xcassets */; };
+		16BB4CD725CFE3D9001AFA5C /* AffirmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB4CD625CFE3D9001AFA5C /* AffirmTests.swift */; };
+		16BB4CE225CFE3D9001AFA5C /* AffirmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB4CE125CFE3D9001AFA5C /* AffirmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16BB4CD325CFE3D9001AFA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16BB4CB925CFE3D8001AFA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BB4CC025CFE3D8001AFA5C;
+			remoteInfo = Affirm;
+		};
+		16BB4CDE25CFE3D9001AFA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16BB4CB925CFE3D8001AFA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BB4CC025CFE3D8001AFA5C;
+			remoteInfo = Affirm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16BB4CC125CFE3D8001AFA5C /* Affirm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BB4CC425CFE3D8001AFA5C /* AffirmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmApp.swift; sourceTree = "<group>"; };
+		16BB4CC625CFE3D8001AFA5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16BB4CC825CFE3D9001AFA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16BB4CCB25CFE3D9001AFA5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16BB4CCD25CFE3D9001AFA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16BB4CD225CFE3D9001AFA5C /* AffirmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffirmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BB4CD625CFE3D9001AFA5C /* AffirmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmTests.swift; sourceTree = "<group>"; };
+		16BB4CD825CFE3D9001AFA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16BB4CDD25CFE3D9001AFA5C /* AffirmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffirmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BB4CE125CFE3D9001AFA5C /* AffirmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmUITests.swift; sourceTree = "<group>"; };
+		16BB4CE325CFE3D9001AFA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16BB4CBE25CFE3D8001AFA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BB4CCF25CFE3D9001AFA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BB4CDA25CFE3D9001AFA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16BB4CB825CFE3D8001AFA5C = {
+			isa = PBXGroup;
+			children = (
+				16BB4CC325CFE3D8001AFA5C /* Affirm */,
+				16BB4CD525CFE3D9001AFA5C /* AffirmTests */,
+				16BB4CE025CFE3D9001AFA5C /* AffirmUITests */,
+				16BB4CC225CFE3D8001AFA5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16BB4CC225CFE3D8001AFA5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16BB4CC125CFE3D8001AFA5C /* Affirm.app */,
+				16BB4CD225CFE3D9001AFA5C /* AffirmTests.xctest */,
+				16BB4CDD25CFE3D9001AFA5C /* AffirmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16BB4CC325CFE3D8001AFA5C /* Affirm */ = {
+			isa = PBXGroup;
+			children = (
+				16BB4CC425CFE3D8001AFA5C /* AffirmApp.swift */,
+				16BB4CC625CFE3D8001AFA5C /* ContentView.swift */,
+				16BB4CC825CFE3D9001AFA5C /* Assets.xcassets */,
+				16BB4CCD25CFE3D9001AFA5C /* Info.plist */,
+				16BB4CCA25CFE3D9001AFA5C /* Preview Content */,
+			);
+			path = Affirm;
+			sourceTree = "<group>";
+		};
+		16BB4CCA25CFE3D9001AFA5C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16BB4CCB25CFE3D9001AFA5C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16BB4CD525CFE3D9001AFA5C /* AffirmTests */ = {
+			isa = PBXGroup;
+			children = (
+				16BB4CD625CFE3D9001AFA5C /* AffirmTests.swift */,
+				16BB4CD825CFE3D9001AFA5C /* Info.plist */,
+			);
+			path = AffirmTests;
+			sourceTree = "<group>";
+		};
+		16BB4CE025CFE3D9001AFA5C /* AffirmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16BB4CE125CFE3D9001AFA5C /* AffirmUITests.swift */,
+				16BB4CE325CFE3D9001AFA5C /* Info.plist */,
+			);
+			path = AffirmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16BB4CC025CFE3D8001AFA5C /* Affirm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BB4CE625CFE3D9001AFA5C /* Build configuration list for PBXNativeTarget "Affirm" */;
+			buildPhases = (
+				16BB4CBD25CFE3D8001AFA5C /* Sources */,
+				16BB4CBE25CFE3D8001AFA5C /* Frameworks */,
+				16BB4CBF25CFE3D8001AFA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Affirm;
+			productName = Affirm;
+			productReference = 16BB4CC125CFE3D8001AFA5C /* Affirm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16BB4CD125CFE3D9001AFA5C /* AffirmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BB4CE925CFE3D9001AFA5C /* Build configuration list for PBXNativeTarget "AffirmTests" */;
+			buildPhases = (
+				16BB4CCE25CFE3D9001AFA5C /* Sources */,
+				16BB4CCF25CFE3D9001AFA5C /* Frameworks */,
+				16BB4CD025CFE3D9001AFA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16BB4CD425CFE3D9001AFA5C /* PBXTargetDependency */,
+			);
+			name = AffirmTests;
+			productName = AffirmTests;
+			productReference = 16BB4CD225CFE3D9001AFA5C /* AffirmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16BB4CDC25CFE3D9001AFA5C /* AffirmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BB4CEC25CFE3D9001AFA5C /* Build configuration list for PBXNativeTarget "AffirmUITests" */;
+			buildPhases = (
+				16BB4CD925CFE3D9001AFA5C /* Sources */,
+				16BB4CDA25CFE3D9001AFA5C /* Frameworks */,
+				16BB4CDB25CFE3D9001AFA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16BB4CDF25CFE3D9001AFA5C /* PBXTargetDependency */,
+			);
+			name = AffirmUITests;
+			productName = AffirmUITests;
+			productReference = 16BB4CDD25CFE3D9001AFA5C /* AffirmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16BB4CB925CFE3D8001AFA5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					16BB4CC025CFE3D8001AFA5C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					16BB4CD125CFE3D9001AFA5C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 16BB4CC025CFE3D8001AFA5C;
+					};
+					16BB4CDC25CFE3D9001AFA5C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 16BB4CC025CFE3D8001AFA5C;
+					};
+				};
+			};
+			buildConfigurationList = 16BB4CBC25CFE3D8001AFA5C /* Build configuration list for PBXProject "Affirm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16BB4CB825CFE3D8001AFA5C;
+			productRefGroup = 16BB4CC225CFE3D8001AFA5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16BB4CC025CFE3D8001AFA5C /* Affirm */,
+				16BB4CD125CFE3D9001AFA5C /* AffirmTests */,
+				16BB4CDC25CFE3D9001AFA5C /* AffirmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16BB4CBF25CFE3D8001AFA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BB4CCC25CFE3D9001AFA5C /* Preview Assets.xcassets in Resources */,
+				16BB4CC925CFE3D9001AFA5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BB4CD025CFE3D9001AFA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BB4CDB25CFE3D9001AFA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16BB4CBD25CFE3D8001AFA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BB4CC725CFE3D8001AFA5C /* ContentView.swift in Sources */,
+				16BB4CC525CFE3D8001AFA5C /* AffirmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BB4CCE25CFE3D9001AFA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BB4CD725CFE3D9001AFA5C /* AffirmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BB4CD925CFE3D9001AFA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BB4CE225CFE3D9001AFA5C /* AffirmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16BB4CD425CFE3D9001AFA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BB4CC025CFE3D8001AFA5C /* Affirm */;
+			targetProxy = 16BB4CD325CFE3D9001AFA5C /* PBXContainerItemProxy */;
+		};
+		16BB4CDF25CFE3D9001AFA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BB4CC025CFE3D8001AFA5C /* Affirm */;
+			targetProxy = 16BB4CDE25CFE3D9001AFA5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16BB4CE425CFE3D9001AFA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16BB4CE525CFE3D9001AFA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16BB4CE725CFE3D9001AFA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Affirm/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Affirm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.Affirm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		16BB4CE825CFE3D9001AFA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Affirm/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Affirm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.Affirm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		16BB4CEA25CFE3D9001AFA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				INFOPLIST_FILE = AffirmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.AffirmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Affirm.app/Affirm";
+			};
+			name = Debug;
+		};
+		16BB4CEB25CFE3D9001AFA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				INFOPLIST_FILE = AffirmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.AffirmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Affirm.app/Affirm";
+			};
+			name = Release;
+		};
+		16BB4CED25CFE3D9001AFA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				INFOPLIST_FILE = AffirmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.AffirmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Affirm;
+			};
+			name = Debug;
+		};
+		16BB4CEE25CFE3D9001AFA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NN4GA72T6;
+				INFOPLIST_FILE = AffirmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selenyanar.AffirmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Affirm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16BB4CBC25CFE3D8001AFA5C /* Build configuration list for PBXProject "Affirm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BB4CE425CFE3D9001AFA5C /* Debug */,
+				16BB4CE525CFE3D9001AFA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BB4CE625CFE3D9001AFA5C /* Build configuration list for PBXNativeTarget "Affirm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BB4CE725CFE3D9001AFA5C /* Debug */,
+				16BB4CE825CFE3D9001AFA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BB4CE925CFE3D9001AFA5C /* Build configuration list for PBXNativeTarget "AffirmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BB4CEA25CFE3D9001AFA5C /* Debug */,
+				16BB4CEB25CFE3D9001AFA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BB4CEC25CFE3D9001AFA5C /* Build configuration list for PBXNativeTarget "AffirmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BB4CED25CFE3D9001AFA5C /* Debug */,
+				16BB4CEE25CFE3D9001AFA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16BB4CB925CFE3D8001AFA5C /* Project object */;
+}
