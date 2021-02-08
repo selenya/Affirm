@@ -9,27 +9,46 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let timer = Timer.publish(every: 7, on: .main, in: .common).autoconnect()
+    let timer = Timer.publish(every: 4, on: .main, in: .common).autoconnect()
+    
+    @State private var fadeInOut = false
     @State var background = LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.6475277543, green: 0.5764557719, blue: 0.6294283867, alpha: 1)),
                                                                        Color(#colorLiteral(red: 0.7164131403, green: 0.8667100668, blue: 0.8583627939, alpha: 1))]),
                                            startPoint: .topLeading,
                                            endPoint: .bottomTrailing)
-    @State private var fadeInOut = false
     
     var body: some View {
-        Rectangle()
-            .fill(background)
-            .ignoresSafeArea()
-            .onReceive(self.timer) { time in
-                //Change background every second when timer triggered
-                withAnimation(.linear(duration: 7)) {
-                    fadeInOut.toggle()
-                    self.background = changeBackgroundColor(topColor: getRandomColor(),
-                                                            bottomColor: getRandomColor())
+        
+        let vc = AffirmationStrings()
+        let randomAffirmation = vc.affirmations[Int.random(in: 0...3)]
+        
+        ZStack {
+            Rectangle()
+                .fill(background)
+                .ignoresSafeArea()
+                .onReceive(self.timer) { time in
+                    //Change everything every time timer triggered
+                    withAnimation(.linear(duration: 4)) {
+                        fadeInOut.toggle()
+                        background = changeBackgroundColor(topColor: getRandomColor(),
+                                                           bottomColor: getRandomColor())
+                        
+                    }
                     
                 }
-            }.opacity(fadeInOut ? 0 : 1)
+            
+                Text("\(randomAffirmation)")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                    .fontWeight(.heavy)
+                    .padding()
+                    .animation(.spring(response: 1, dampingFraction: 2, blendDuration: 4))
+
+        }.opacity(fadeInOut ? 0 : 1)
+        
     }
+    
+
     
     func changeBackgroundColor(topColor: UIColor, bottomColor: UIColor) -> LinearGradient {
         self.background = LinearGradient(gradient: Gradient(colors: [Color(topColor),

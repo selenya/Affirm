@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16689A5025D18C5000A58875 /* AffirmationStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16689A4F25D18C5000A58875 /* AffirmationStrings.swift */; };
 		16BB4CC525CFE3D8001AFA5C /* AffirmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB4CC425CFE3D8001AFA5C /* AffirmApp.swift */; };
 		16BB4CC725CFE3D8001AFA5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB4CC625CFE3D8001AFA5C /* ContentView.swift */; };
 		16BB4CC925CFE3D9001AFA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BB4CC825CFE3D9001AFA5C /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16689A4F25D18C5000A58875 /* AffirmationStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationStrings.swift; sourceTree = "<group>"; };
 		16BB4CC125CFE3D8001AFA5C /* Affirm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BB4CC425CFE3D8001AFA5C /* AffirmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmApp.swift; sourceTree = "<group>"; };
 		16BB4CC625CFE3D8001AFA5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		16BB4CC325CFE3D8001AFA5C /* Affirm */ = {
 			isa = PBXGroup;
 			children = (
+				16689A4F25D18C5000A58875 /* AffirmationStrings.swift */,
 				16BB4CC425CFE3D8001AFA5C /* AffirmApp.swift */,
 				16BB4CC625CFE3D8001AFA5C /* ContentView.swift */,
 				16BB4CC825CFE3D9001AFA5C /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16689A5025D18C5000A58875 /* AffirmationStrings.swift in Sources */,
 				16BB4CC725CFE3D8001AFA5C /* ContentView.swift in Sources */,
 				16BB4CC525CFE3D8001AFA5C /* AffirmApp.swift in Sources */,
 			);
