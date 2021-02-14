@@ -20,7 +20,7 @@ struct ContentView: View {
     var body: some View {
         
         let vc = AffirmationStrings()
-        let randomAffirmation = vc.affirmations[Int.random(in: 0...3)]
+        let randomAffirmation = vc.affirmations[Int.random(in: 0...10)]
         
         ZStack {
             Rectangle()
