@@ -24,9 +24,14 @@ class AffirmationStrings {
         "I create a safe and secure space for myself wherever I am.",
         "I give myself space to grow and learn.",
         "I accept my emotions and let them serve their purpose.",
-        " trust myself to make the right decision.",
+        "I trust myself to make the right decision.",
         "I am becoming closer to my true self every day.",
-        "I trust that I am on the right path."
+        "I trust that I am on the right path.",
+        "I control my thoughts, they don't control me.",
+        "I am enough and I am growing.",
+        "I am ready to embrace change,",
+        "I deserve what I can achieve."
+        
     
     
     ]
